@@ -1,3 +1,23 @@
+// SWITCHES
+
+  const color="yellow";
+ switch(color){
+      case "red":
+          console.log("color is red")
+          break;
+          case "blue":
+              console.log("color is blue")
+              break;
+              case "marron":
+                  console.log("color is marron")
+                  break;
+                  default:
+                      console.log("color is neither marron or red")
+  }
+
+
+
+(it show the particular today)
 const dayOfWeek=new Date().getDay();
 let day;
 switch(dayOfWeek){
